@@ -1,0 +1,289 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joe Mama`s Recipes | Cooking Website</title>
+    <style>
+    	* {
+		  box-sizing: border-box;
+		}
+		
+		input[type=text], select, textarea {
+		  width: 100%;
+		  padding: 12px;
+		  border: 1px solid #ccc;
+		  border-radius: 4px;
+		  resize: vertical;
+		}
+		
+		label {
+		  padding: 12px 12px 12px 0;
+		  display: inline-block;
+		}
+		
+		input[type=submit] {
+		  background-color: #ffd000;
+		  color: white;
+		  padding: 12px 20px;
+		  border: none;
+		  border-radius: 4px;
+		  cursor: pointer;
+		  float: right;
+		}
+		
+		input[type=submit]:hover {
+		  background-color: #45a049;
+		}
+		
+		.container {
+		  border-radius: 5px;
+		  background-color: #f2f2f2;
+		  padding: 20px;
+		  width:60%;
+		  margin:auto;
+		  
+		}
+		
+		.col-20{
+		  float: left;
+		  width: 20%;
+		  margin-top: 6px;
+		}
+		
+		.col-75 {
+		  float: left;
+		  width: 75%;
+		  margin-top: 6px;
+		}
+		@media screen and (max-width: 600px) {
+ 		 .col-20, .col-75, input[type=submit] {
+   				 width: 100%;
+   				 margin-top: 0;
+ 		 	}
+		}
+		
+		.row::after {
+  			content: "";
+  			display: table;
+ 			clear: both;
+  }
+	
+    	.bloc {
+			display: block;
+			padding:1em;	
+		}
+        body {
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #fff;
+            text-align: center;
+            top: 0;
+    		margin: 0;
+		 	padding: 1em;
+		 	display:block;
+		}
+		.card {
+			margin:100px;
+			margin-top:0;
+		}
+		.card2 {
+			margin:200px;
+			margin-top:0;
+			padding:1em;
+			background-color: #fffddd
+		}
+
+        ul.nav {
+        	display:block;
+  			list-style-type: none;
+		 	padding: 0;
+		  	overflow: hidden;
+		  	background-color: #fff;
+		  	position: sticky;
+		  	top: 0;
+		  	margin:0;
+		  	box-shadow: 0 0.125rem 0.375rem rgba(0,0,0,.15);
+		}
+
+		ul.nav li {
+ 			float: left;
+		}
+
+		ul.nav li a {
+		  display: block;
+		  color: black;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		}
+
+		ul.nav li a:hover {
+ 		  background-color: #ffd000;
+		}
+
+		.active {
+		  background-color: #4CAF50;
+		}
+
+		#recipes{
+			display:block;
+			margin-top:5px;
+			padding:1em;
+		}
+	        footer {
+            background-color: #fff;
+            text-align: center;
+            padding: 0;
+            bottom: 0;
+            width: 100%;
+    		margin: 0;
+		  	overflow: hidden;
+
+        }
+    	.auto-style1 {
+			font-family: "Montserrat Extra Bold";
+			color: #E84E21;
+	}
+		
+		div.gallery {
+		  margin: auto;
+		  border: 1px solid #ccc;
+		  width: 45%;
+		}
+		
+		div.gallery:hover {
+		  border: 1px solid #777;
+		}
+		
+		div.gallery img {
+		  width: 100%;
+		  height: auto;
+		}
+		
+		div.desc {
+		  padding: 15px;
+		  text-align: center;
+		  font-family: Montserrat;
+		}
+    .auto-style2 {
+    	margin:auto;
+    	padding:1em;
+     	
+	}
+    .auto-style4 {
+		font-family: Montserrat;
+	}
+    .auto-style6 {
+		text-align: center;
+		font-family: Montserrat;
+		width:50%; 
+		margin:auto;
+	}
+    .auto-style7 {
+		font-family: "Montserrat Extra Bold";
+	}
+    .auto-style9 {
+		text-align: center;
+		font-family: Montserrat;
+		width: 50%;
+		margin: auto;
+		font-size: small;
+	}
+    .auto-style11 {
+		font-family: "Montserrat ExtraBold";
+	}
+    .auto-style12 {
+		text-align: center;
+		font-family: Montserrat;
+		width: 50%;
+		margin: auto;
+		font-size: large;
+	}
+	.auto-style13 {
+		font-family: Montserrat;
+		font-size: 19pt;
+	}
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 class="auto-style1">JOE MAMA`S RECIPES</h1>
+        <p class="auto-style4">Your go-to site for delicious recipes</p>
+    </header>
+
+    <ul class="nav">
+        <li class="auto-style4"><a href="Index.html#home">Home</a></li>
+        <li class="auto-style4"><a href="Index.html#recipes">Recipes</a></li>
+        <li class="auto-style4"><a href="Index.html#contact">Contact Us</a></li>
+    </ul>
+
+    <section id="home" style="background-image :url('section1.jpg'); height:300px; background-size:100%; width:100%; margin:0;">
+        
+    </section>
+	<div class="card" style="padding-bottom:10px;">
+    <section id="recipes">
+        <h2 class="auto-style12">Deserts</h2><br>
+        <div class="auto-style2">
+            <h2 class="auto-style6">Vanilla Cake</h2><br>
+            <p class="auto-style9">This vanilla cake recipe is great for all occasions and easy to make. It's the best cake I have ever made. It's not too bland, and it's not too sweet. 
+            Slice the cooled cake through the middle to make two layers and frost as desired.</p><br><br><br>
+            <div class="gallery">
+  					<a target="_blank" href="vanillacake.jpg">
+   					<img src="vanillacake.jpg" alt="vanillacake" width="600" height="400">
+  					</a>
+			</div>
+			
+			</div>
+		<br><br><br><hr style="width:60%;"><br><br>
+	<div class="card2">
+	<div class="auto-style7">
+	<h2 class="auto-style11">Ingredients</h2>
+	</div>
+	<div class="auto-style4">
+	<ul>
+		<li>cooking spray</li>
+		<li>2 ⅔ cups all-purpose flour, or more as needed</li>
+		<li>1 cup white sugar</li>
+		<li>1 tablespoon baking powder</li>
+		<li>1 tablespoon vanilla extract</li>
+		<li>2 pinches salt</li>
+		<li>3 eggs</li>
+		<li>¾ cup milk</li>
+		<li>¾ cup vegetable oil</li>
+	
+				
+	</ul>
+	</div>
+	<br><br><hr style="width:60%;"><br><br>
+	<div class="auto-style7">
+	<h2 class="auto-style11">Directions</h2></div><br><br>
+	<div class="auto-style7">
+	<h2 class="auto-style13">Step 1</h2></div>
+	<div class="auto-style4">
+	<p>Preheat the oven to 350 degrees F (175 degrees C). Grease a 9-inch cake tin with cooking spray and line with parchment paper.</p><br>
+	<h2 class="auto-style13">Step 2</h2></div>
+	<div class="auto-style4">
+	<p>Mix flour, sugar, baking powder, vanilla extract, and salt together in a large bowl. Add eggs, milk, and vegetable oil; 
+	mix by hand or beat with an electric mixer on low speed until smooth. Add more flour if batter is too runny. Pour into the prepared pan.</p><br>
+	<h2 class="auto-style13">Step 3</h2></div>
+	<div class="auto-style4">
+	<p>Bake in the preheated oven until a toothpick inserted into the center of the cake comes out clean, about 1 hour. Cool on a wire rack for 5 minutes. Run a table knife around the edges to loosen. 
+	Invert cake carefully onto a cooling rack. Let cool completely. </p><br>
+	
+
+
+
+	</div>
+	</div>
+	</section>
+</div>
+	    <footer style="width: 100%">
+        <p class="auto-style4">© 2023 Joe Mama`s Recipies. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

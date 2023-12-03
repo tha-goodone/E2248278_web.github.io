@@ -1,0 +1,311 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joe Mama`s Recipes | Cooking Website</title>
+    <style>
+    	* {
+		  box-sizing: border-box;
+		}
+		
+		input[type=text], select, textarea {
+		  width: 100%;
+		  padding: 12px;
+		  border: 1px solid #ccc;
+		  border-radius: 4px;
+		  resize: vertical;
+		}
+		
+		label {
+		  padding: 12px 12px 12px 0;
+		  display: inline-block;
+		}
+		
+		input[type=submit] {
+		  background-color: #ffd000;
+		  color: white;
+		  padding: 12px 20px;
+		  border: none;
+		  border-radius: 4px;
+		  cursor: pointer;
+		  float: right;
+		}
+		
+		input[type=submit]:hover {
+		  background-color: #45a049;
+		}
+		
+		.container {
+		  border-radius: 5px;
+		  background-color: #f2f2f2;
+		  padding: 20px;
+		  width:60%;
+		  margin:auto;
+		  
+		}
+		
+		.col-20{
+		  float: left;
+		  width: 20%;
+		  margin-top: 6px;
+		}
+		
+		.col-75 {
+		  float: left;
+		  width: 75%;
+		  margin-top: 6px;
+		}
+		@media screen and (max-width: 600px) {
+ 		 .col-20, .col-75, input[type=submit] {
+   				 width: 100%;
+   				 margin-top: 0;
+ 		 	}
+		}
+		
+		.row::after {
+  			content: "";
+  			display: table;
+ 			clear: both;
+  }
+	
+    	.bloc {
+			display: block;
+			padding:1em;	
+		}
+        body {
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #fff;
+            text-align: center;
+            top: 0;
+    		margin: 0;
+		 	padding: 1em;
+		 	display:block;
+		}
+		.card {
+			margin:100px;
+			margin-top:0;
+		}
+		.card2 {
+			margin:200px;
+			margin-top:0;
+			padding:1em;
+			background-color: #fffddd
+		}
+
+        ul.nav {
+        	display:block;
+  			list-style-type: none;
+		 	padding: 0;
+		  	overflow: hidden;
+		  	background-color: #fff;
+		  	position: sticky;
+		  	top: 0;
+		  	margin:0;
+		  	box-shadow: 0 0.125rem 0.375rem rgba(0,0,0,.15);
+		}
+
+		ul.nav li {
+ 			float: left;
+		}
+
+		ul.nav li a {
+		  display: block;
+		  color: black;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		}
+
+		ul.nav li a:hover {
+ 		  background-color: #ffd000;
+		}
+
+		.active {
+		  background-color: #4CAF50;
+		}
+
+		#recipes{
+			display:block;
+			margin-top:5px;
+			padding:1em;
+		}
+	        footer {
+            background-color: #fff;
+            text-align: center;
+            padding: 0;
+            bottom: 0;
+            width: 100%;
+    		margin: 0;
+		  	overflow: hidden;
+
+        }
+    	.auto-style1 {
+			font-family: "Montserrat Extra Bold";
+			color: #E84E21;
+	}
+		
+		div.gallery {
+		  margin: auto;
+		  border: 1px solid #ccc;
+		  width: 45%;
+		}
+		
+		div.gallery:hover {
+		  border: 1px solid #777;
+		}
+		
+		div.gallery img {
+		  width: 100%;
+		  height: auto;
+		}
+		
+		div.desc {
+		  padding: 15px;
+		  text-align: center;
+		  font-family: Montserrat;
+		}
+    .auto-style2 {
+    	margin:auto;
+    	padding:1em;
+     	
+	}
+    .auto-style4 {
+		font-family: Montserrat;
+	}
+    .auto-style6 {
+		text-align: center;
+		font-family: Montserrat;
+		width:50%; 
+		margin:auto;
+	}
+    .auto-style7 {
+		font-family: "Montserrat Extra Bold";
+	}
+    .auto-style9 {
+		text-align: center;
+		font-family: Montserrat;
+		width: 50%;
+		margin: auto;
+		font-size: small;
+	}
+    .auto-style11 {
+		font-family: "Montserrat ExtraBold";
+	}
+    .auto-style12 {
+		text-align: center;
+		font-family: Montserrat;
+		width: 50%;
+		margin: auto;
+		font-size: large;
+	}
+	.auto-style13 {
+		font-family: Montserrat;
+		font-size: 19pt;
+	}
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 class="auto-style1">JOE MAMA`S RECIPES</h1>
+        <p class="auto-style4">Your go-to site for delicious recipes</p>
+    </header>
+
+    <ul class="nav">
+        <li class="auto-style4"><a href="Index.html#home">Home</a></li>
+        <li class="auto-style4"><a href="Index.html#recipes">Recipes</a></li>
+        <li class="auto-style4"><a href="Index.html#contact">Contact Us</a></li>
+    </ul>
+
+    <section id="home" style="background-image :url('section1.jpg'); height:300px; background-size:100%; width:100%; margin:0;">
+        
+    </section>
+	<div class="card" style="padding-bottom:10px;">
+    <section id="recipes">
+        <h2 class="auto-style12">Deserts</h2><br>
+        <div class="auto-style2">
+            <h2 class="auto-style6">Sticky Toffee Pudding</h2><br>
+            <p class="auto-style9">Sticky toffee pudding is a classic British dessert that's easier to make than you think. Serve warm with cream, ice cream, or custard for a delicious, 
+            crowd-pleasing dessert. The sponge cake includes finely chopped dates which make it super moist but it doesn't taste of dates at all!</p><br><br><br>
+            <div class="gallery">
+  					<a target="_blank" href="stickypudding.jpg">
+   					<img src="stickypudding.jpg" alt="stickypudding" width="600" height="400">
+  					</a>
+			</div>
+			
+			</div>
+		<br><br><br><hr style="width:60%;"><br><br>
+	<div class="card2">
+	<div class="auto-style7">
+	<h2 class="auto-style11">Ingredients</h2>
+	</div>
+	<div class="auto-style4">
+	<ul>
+		<li>1 ½ cups finely chopped, pitted dates</li>
+		<li>1 ¼ cups hot brewed tea</li>
+		<li>¾ cup white sugar</li>
+		<li>2 tablespoons white sugar</li>
+		<li>½ cup unsalted butter, softened</li>
+		<li>3 large eggs</li>
+		<li>2 cups all-purpose flour</li>
+		<li>1 ½ teaspoons baking powder</li>
+		<li>1 teaspoon baking soda</li>
+		<li>1 teaspoon vanilla extract</li>
+		<li>½ cup white sugar</li>
+		<li>1 tablespoon white sugar</li>
+		<li>1 tablespoon brown sugar</li>
+		<li>¾ cup golden syrup (such as Lyle's)</li>
+		<li>1 tablespoon golden syrup (such as Lyle's)</li>
+		<li>½ cup unsalted butter</li>
+		<li>3 large eggs</li>
+		<li>1 cup heavy cream</li>
+		<li>1 ½ teaspoons baking powder</li>
+		<li>1 teaspoon vanilla extract</li>
+
+				
+	</ul>
+	</div>
+	<br><br><hr style="width:60%;"><br><br>
+	<div class="auto-style7">
+	<h2 class="auto-style11">Directions</h2></div><br><br>
+	<div class="auto-style7">
+	<h2 class="auto-style13">Step 1</h2></div>
+	<div class="auto-style4">
+	<p>Combine dates and tea in a bowl; set aside to soak for 15 minutes.</p><br>
+	<h2 class="auto-style13">Step 2</h2></div>
+	<div class="auto-style4">
+	<p>Preheat the oven to 350 degrees F (180 degrees C). Grease an 8-inch round cake pan and line with parchment paper.</p><br>
+	<h2 class="auto-style13">Step 3</h2></div>
+	<div class="auto-style4">
+	<p>Cream 3/4 cups plus 2 tablespoons sugar and butter until light and fluffy. Beat in eggs, one at a time, mixing well after each addition. Sift in flour and baking powder and fold into the mixture. </p><br>
+	<h2 class="auto-style13">Step 4</h2></div>
+	<div class="auto-style4">
+	<p>Add baking soda, vanilla, and espresso granules to the date-tea mixture. Add mixture to the batter and stir to produce a loose, soft, dropping consistency. Pour into the prepared pan.</p><br>
+	<h2 class="auto-style13">Step 5</h2></div>
+	<div class="auto-style4">
+	<p>Bake in the preheated oven until a skewer inserted in the center comes out clean, 1 to 1 1/2 hours.</p><br>
+	<h2 class="auto-style13">Step 6</h2></div>
+	<div class="auto-style4">
+	<p>When pudding is almost finished baking, combine 1/2 cup plus 1 tablespoon sugar, 3/4 cup plus 1 tablespoon brown sugar, 3/4 cup plus 1 tablespoon golden syrup, and butter for the sauce in a heavy saucepan over low heat until melted. 
+	Simmer for 5 minutes, then remove from heat. Gradually stir in cream and vanilla. Return to the heat and stir until smooth, 2 to 3 minutes. </p><br>
+	<h2 class="auto-style13">Step 7</h2></div>
+	<div class="auto-style4">
+	<p>Remove pudding from the oven. Spoon a little sauce onto each serving plate. Place a portion of pudding on top, then pour over more sauce. Serve remaining sauce on the side.</p><br>
+
+
+
+
+	</div>
+	</div>
+	</section>
+</div>
+	    <footer style="width: 100%">
+        <p class="auto-style4">© 2023 Joe Mama`s Recipies. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
